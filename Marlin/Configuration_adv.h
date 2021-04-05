@@ -3560,12 +3560,12 @@
 #if ENABLED(PRINTCOUNTER)
   #define SERVICE_WARNING_BUZZES  3
   // Activate up to 3 service interval watchdogs
-  //#define SERVICE_NAME_1      "Service S"
-  //#define SERVICE_INTERVAL_1  100 // print hours
-  //#define SERVICE_NAME_2      "Service L"
-  //#define SERVICE_INTERVAL_2  200 // print hours
-  //#define SERVICE_NAME_3      "Service 3"
-  //#define SERVICE_INTERVAL_3    1 // print hours
+  #define SERVICE_NAME_1      "Clean Rails and Bed"
+  #define SERVICE_INTERVAL_1  100 // print hours
+  #define SERVICE_NAME_2      "Tension Belts and V-Groove Wheels"
+  #define SERVICE_INTERVAL_2  200 // print hours
+  #define SERVICE_NAME_3      "Level Bed and Nozzles, and Adjust Z-Axis Home"
+  #define SERVICE_INTERVAL_3  300 // print hours
 #endif
 
 // @section develop
