@@ -212,8 +212,8 @@
   #define FAN_PIN           -1
 #endif
 #define FAN1_PIN            -1
-#define FAN2_PIN            Fan3
-#define FAN3_PIN            Fan4 
+#define FAN2_PIN            -1
+#define FAN3_PIN            -1
 
 #define TACH_0_PIN         TACH_1
 #define TACH_1_PIN         TACH_2
