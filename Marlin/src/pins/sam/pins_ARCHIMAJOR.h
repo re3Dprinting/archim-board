@@ -146,8 +146,8 @@
 
 #define Z_MIN_PIN          MIN_ES3
 #define Z_MAX_PIN          MAX_ES3
-//#define Y2_MAX_PIN         MAX_ES4
-//#define Z2_MIN_PIN         MIN_ES4
+#define FIL_RUNOUT_PIN         MIN_ES4
+#define FIL_RUNOUT2_PIN         MAX_ES4
 
 // Z Probe (when not Z_MIN_PIN)
 //
